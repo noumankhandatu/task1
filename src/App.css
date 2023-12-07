@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-div {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  border-radius: 10px;
+  background: linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px) calc(100% - 16px)
+      no-repeat,
+    linear-gradient(299deg, #f7e896 0%, #2b220c 43.889%, #dfa433 71.492%, #2b220c 100%);
+  border-radius: 8px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.patrick {
+  font-style: normal;
+  background: #f7e896;
+  font-size: 40px;
+  background: -webkit-linear-gradient(to right, #f7e896 0%, #2b220c 79%, #dfa433 86%);
+  background: -moz-linear-gradient(to right, #f7e896 0%, #2b220c 79%, #dfa433 86%);
+  background: linear-gradient(to right, #f7e896 0%, #2b220c 79%, #dfa433 86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sales {
+  background: #f7e896;
+  font-size: 20px;
+  background: -webkit-linear-gradient(to right, #f7e896 0%, #2b220c 79%, #dfa433 86%);
+  background: -moz-linear-gradient(to right, #f7e896 0%, #2b220c 79%, #dfa433 86%);
+  background: linear-gradient(to right, #f7e896 0%, #2b220c 79%, #dfa433 86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.toggle-button {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size of the text */
+  border: none; /* No border */
+  border-radius: 4px;
+  cursor: pointer; 
+}
+
+.toggle-button:hover {
+  background-color: #4597a0; /* Darker green on hover */
+}
